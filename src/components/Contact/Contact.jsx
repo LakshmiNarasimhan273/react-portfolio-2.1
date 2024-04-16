@@ -37,7 +37,9 @@ function Contact() {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact me</span>
+      <span className="section__subtitle">
+        Would like to have conversation with Me?
+      </span>
 
       <div className="contact__container container grid">
         <div className="contact__container">

@@ -8,7 +8,7 @@ function Header() {
     else header.classList.remove("scroll-header");
   });
 
-  const [Toggle, showMenu] = useState(false);
+  const [toggle, setToggle] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
   const links = [
     {
@@ -21,7 +21,7 @@ function Header() {
       id: 2,
       icons: "user",
       name: "About",
-      ref: "#about",
+      ref: "#aboutme",
     },
     {
       id: 3,
@@ -48,21 +48,39 @@ function Header() {
       ref: "#contact",
     },
   ];
+
+  // Function to handle navigation click
+  const handleNavClick = (ref) => {
+    const targetSection = document.querySelector(ref);
+    if (targetSection) {
+      const yOffset = -80; // Adjust scroll position if needed
+      const y =
+        targetSection.getBoundingClientRect().top +
+        window.pageYOffset +
+        yOffset;
+      setTimeout(() => {
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }, 100); // Introduce a delay before scrolling
+      setActiveNav(ref);
+      setToggle(false); // Close the navbar after navigation
+    }
+  };
+
   return (
     <header className="header">
       <nav className="nav container">
         <a href="#home" className="nav__logo">
           SLN
         </a>
-        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+        <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             {links.map((data) => (
               <li className="nav__item" key={data.id}>
                 <a
                   href={data.ref}
-                  onClick={() => setActiveNav(data.ref)}
+                  onClick={() => handleNavClick(data.ref)}
                   className={
-                    activeNav === "#home"
+                    activeNav === data.ref
                       ? "nav__link active-link"
                       : "nav__link"
                   }
@@ -75,10 +93,10 @@ function Header() {
           </ul>
           <i
             className="uil uil-times nav__close"
-            onClick={() => showMenu(!Toggle)}
+            onClick={() => setToggle(!toggle)}
           ></i>
         </div>
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+        <div className="nav__toggle" onClick={() => setToggle(!toggle)}>
           <i className="uil uil-apps"></i>
         </div>
       </nav>

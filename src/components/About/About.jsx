@@ -6,7 +6,7 @@ import Content from "./Content";
 
 function About() {
   return (
-    <section className="about section" id="about">
+    <section className="about section" id="aboutme">
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My introduction</span>
 
@@ -17,9 +17,13 @@ function About() {
           <Content />
 
           <p className="about__description">
-            Hi!, i am Familiar with React for building and designing the UI
-            Components , I love to work on web application using the
-            technologies of MongoDB, Express, React & Node ;
+            I'm Lakshmi Narasimhan, a seasoned MERN stack trainer with three
+            years of immersive experience. Specializing in full-stack
+            application development, I've spearheaded numerous projects,
+            leveraging my strong knowledge base to deliver impactful solutions.
+            With a passion for sharing knowledge and a commitment to excellence,
+            I thrive on empowering individuals to excel in the ever-evolving
+            landscape of web development.
           </p>
 
           <a href={resume} download={true} className="button button--flex">

@@ -57,9 +57,11 @@ function Data() {
       </h1>
       <h3 className="home__subtitle">Fullstack Developer</h3>
       <p className="home__description">
-        Hi!, i am Familiar with React for building and designing the UI
-        Components , I love to work on web application using the technologies of
-        MongoDB, Express, React & Node ;
+        With over three years of hands-on experience in the MERN stack,
+        including proficiency in MongoDB, Express, React, and Node.js, I
+        specialize in crafting dynamic web applications. With a focus on
+        seamless integration and user-centric design, I am committed to
+        delivering high-quality solutions that elevate digital experiences.
       </p>
       <a href="#contact" className="button button--flex">
         Drop a Message

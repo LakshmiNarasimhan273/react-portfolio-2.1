@@ -36,8 +36,10 @@ function Services() {
               ></i>
               <h3 className="services__modal-title">Fullstack Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years and providing good quality of
-                work to clients
+                Experienced full-stack developer proficient in the MERN stack
+                with three years of industry experience. Specializing in
+                crafting dynamic web applications to meet diverse business
+                needs.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-services">
@@ -87,8 +89,9 @@ function Services() {
               ></i>
               <h3 className="services__modal-title">UI/UX Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years and providing good quality of
-                work to clients
+                Experienced UI/UX designer adept at creating intuitive and
+                visually stunning digital experiences. Passionate about crafting
+                user-centric designs that elevate products and delight users.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-services">
@@ -138,8 +141,9 @@ function Services() {
               ></i>
               <h3 className="services__modal-title">Fullstack Trainer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years and providing good quality of
-                work to clients
+                Experienced MERN stack trainer with a track record of delivering
+                impactful solutions. Passionate about empowering individuals to
+                excel in full-stack application development.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-services">

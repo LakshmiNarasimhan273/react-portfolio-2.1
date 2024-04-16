@@ -1,5 +1,3 @@
-import Work1 from "../../assets/work1.jpg";
-
 export const portfolioData = [
   {
     id: 1,

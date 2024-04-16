@@ -9,7 +9,7 @@ function Footer() {
 
         <ul className="footer__list">
           <li>
-            <a href="#about" className="footer__link">
+            <a href="#aboutme" className="footer__link">
               About
             </a>
           </li>

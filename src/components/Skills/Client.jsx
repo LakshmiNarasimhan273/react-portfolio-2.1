@@ -35,12 +35,6 @@ function Client() {
     {
       id: 6,
       icon: "bx-badge-check",
-      name: "NextJS",
-      level: "Intermediate",
-    },
-    {
-      id: 7,
-      icon: "bx-badge-check",
       name: "Git",
       level: "Advanced",
     },

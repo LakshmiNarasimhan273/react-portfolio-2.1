@@ -32,14 +32,9 @@ function Server() {
       name: "Spring Boot",
       level: "Advanced",
     },
+
     {
       id: 6,
-      icon: "bx-badge-check",
-      name: "Firebase",
-      level: "Intermediate",
-    },
-    {
-      id: 7,
       icon: "bx-badge-check",
       name: "AWS",
       level: "Intermediate",
