@@ -2,23 +2,23 @@ export const portfolioData = [
   {
     id: 1,
     image:
-      "https://cdn.dribbble.com/users/585028/screenshots/15663487/media/8db9a367937d7c498057b31129746b64.png",
-    title: "Kanban Board",
-    category: "web",
-  },
-  {
-    id: 2,
-    image:
-      "https://cdn.dribbble.com/users/4710151/screenshots/19884157/media/b013dc6a446e89ed6923afdd00a3f6f9.png?resize=1200x900&vertical=center",
+      "https://cdn.dribbble.com/userupload/5974409/file/original-c0b498540cdc8103d8b1ab7c12688dac.png?resize=1504x1128",
     title: "Admin Dashboard",
     category: "app",
   },
   {
+    id: 2,
+    image:
+      "https://cdn.dribbble.com/users/1709768/screenshots/18738644/media/2b4df1b87da27607728fee42f1300475.png?resize=1200x900&vertical=center",
+    title: "Kanban Board",
+    category: "web",
+  },
+  {
     id: 3,
     image:
-      "https://cdn.dribbble.com/users/2527395/screenshots/20024553/media/b0bce0f5e3849655aecee9525b2a6274.png?resize=1200x900&vertical=center",
-    title: "Mobile App design",
-    category: "app",
+      "https://cdn.dribbble.com/userupload/14110609/file/original-61c060d93243222f137725e9b52945d1.png?resize=1504x1128",
+    title: "Mobile App Design",
+    category: "design",
   },
   {
     id: 4,
@@ -31,8 +31,8 @@ export const portfolioData = [
     id: 5,
     image:
       "https://cdn.dribbble.com/userupload/11945087/file/original-41d326b87d54e83efe1168abdcd13aeb.png?resize=1504x1128",
-    title: "E-Commerce application",
-    category: "design",
+    title: "E-Commerce Application",
+    category: "app",
   },
   {
     id: 6,

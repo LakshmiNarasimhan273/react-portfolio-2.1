@@ -54,7 +54,15 @@ function Footer() {
         </div>
 
         <span className="footer__copy">
-          &#169; Lakshmi Narasimhan. All rights reserved
+          &#169;
+          <a
+            href="https://twitter.com/Lakshmi37718277"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span> </span>Lakshmi Narasimhan.
+          </a>
+          All rights reserved
         </span>
       </div>
     </footer>
