@@ -35,6 +35,12 @@ function Client() {
     {
       id: 6,
       icon: "bx-badge-check",
+      name: "Angular",
+      level: "Intermediate",
+    },
+    {
+      id: 7,
+      icon: "bx-badge-check",
       name: "Git",
       level: "Advanced",
     },

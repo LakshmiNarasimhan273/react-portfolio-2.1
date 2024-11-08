@@ -57,7 +57,7 @@ function Data() {
       </h1>
       <h3 className="home__subtitle">Fullstack Developer</h3>
       <p className="home__description">
-        With over three years of hands-on experience in the MERN stack,
+        With over 3+ years of hands-on experience in the MERN stack,
         including proficiency in MongoDB, Express, React, and Node.js, I
         specialize in crafting dynamic web applications. With a focus on
         seamless integration and user-centric design, I am committed to

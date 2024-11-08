@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import AboutImg from "../../assets/about .jpg";
+import AboutImg from "../../assets/LinkedIn-Profile.jpeg";
 import resume from "../../assets/Lakshmi-Narasimhan.pdf";
 import Content from "./Content";
 
@@ -17,7 +17,7 @@ function About() {
           <Content />
 
           <p className="about__description">
-            I'm Lakshmi Narasimhan, a seasoned MERN stack trainer with three
+            I'm Lakshmi Narasimhan, a seasoned MERN stack trainer with 3+
             years of immersive experience. Specializing in full-stack
             application development, I've spearheaded numerous projects,
             leveraging my strong knowledge base to deliver impactful solutions.

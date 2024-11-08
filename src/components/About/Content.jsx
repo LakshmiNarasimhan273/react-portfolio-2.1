@@ -6,7 +6,7 @@ function Content() {
       id: 1,
       title: "Experience",
       icon: "award",
-      subTitle: "3 Years Working",
+      subTitle: "3+ Years Working",
     },
     {
       id: 2,

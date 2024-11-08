@@ -21,23 +21,29 @@ function Server() {
       level: "Advanced",
     },
     {
-      id: 4,
+      id: 6,
+      icon: "bx-badge-check",
+      name: "REST API Development",
+      level: "Advanced"
+    },
+    {
+      id: 5,
       icon: "bx-badge-check",
       name: "Java",
       level: "Advanced",
     },
     {
-      id: 5,
+      id: 6,
       icon: "bx-badge-check",
       name: "Spring Boot",
       level: "Advanced",
     },
 
     {
-      id: 6,
+      id: 7,
       icon: "bx-badge-check",
       name: "AWS",
-      level: "Intermediate",
+      level: "Beginner",
     },
   ];
   return (

@@ -93,13 +93,30 @@ function Qualifications() {
             onClick={() => toggleTab(2)}
           >
             <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Technical Trainer</h3>
+                <span className="qualification__subtitle">
+                  iam<strong>Neo</strong>
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> JUN 2024 - Present
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Fullstack Trainer</h3>
                 <span className="qualification__subtitle">
                   Edureka Learning Center
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> APR 2023 - JUN 2024
                 </div>
               </div>
 
@@ -121,7 +138,7 @@ function Qualifications() {
                   Achariya Infotech
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2023
+                  <i className="uil uil-calendar-alt"></i> AUG 2021 - APR 2023
                 </div>
               </div>
             </div>
