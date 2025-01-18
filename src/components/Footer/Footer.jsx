@@ -19,7 +19,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="#Services" className="footer__link">
+            <a href="#services" className="footer__link">
               Services
             </a>
           </li>
