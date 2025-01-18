@@ -15,7 +15,7 @@ function Services() {
         <div className="services__content">
           <div>
             <i className="uil uil-react services__icon">
-              <h3 className="services__title">Web Developer</h3>
+              <h3 className="services__title">Developer</h3>
             </i>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>

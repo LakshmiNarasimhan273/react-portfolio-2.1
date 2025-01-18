@@ -5,46 +5,45 @@ function Server() {
     {
       id: 1,
       icon: "bx-badge-check",
-      name: "NodeJS",
+      name: "Data Structures & Algorithms",
       level: "Advanced",
     },
     {
       id: 2,
       icon: "bx-badge-check",
-      name: "ExpressJS",
+      name: "NodeJS",
       level: "Advanced",
     },
     {
       id: 3,
       icon: "bx-badge-check",
+      name: "ExpressJS",
+      level: "Advanced",
+    },
+    {
+      id: 4,
+      icon: "bx-badge-check",
       name: "MongoDB & MySql",
       level: "Advanced",
     },
     {
-      id: 6,
+      id: 5,
       icon: "bx-badge-check",
       name: "REST API Development",
       level: "Advanced"
     },
     {
-      id: 5,
+      id: 6,
       icon: "bx-badge-check",
       name: "Java",
       level: "Advanced",
     },
     {
-      id: 6,
+      id: 7,
       icon: "bx-badge-check",
       name: "Spring Boot",
       level: "Advanced",
-    },
-
-    {
-      id: 7,
-      icon: "bx-badge-check",
-      name: "AWS",
-      level: "Beginner",
-    },
+    }
   ];
   return (
     <div className="skills__content">

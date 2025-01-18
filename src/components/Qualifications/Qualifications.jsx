@@ -91,7 +91,25 @@ function Qualifications() {
                 : "qualification__content"
             }
             onClick={() => toggleTab(2)}
-          >
+          > 
+          {/*  */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Full Stack Mentor</h3>
+                <span className="qualification__subtitle">
+                  Entri
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> FEB 2025 - Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            {/*  */}
             <div className="qualification__data">
               <div></div>
               <div>
@@ -104,7 +122,7 @@ function Qualifications() {
                   iam<strong>Neo</strong>
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> JUN 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> JUN 2024 - FEB 2025
                 </div>
               </div>
             </div>

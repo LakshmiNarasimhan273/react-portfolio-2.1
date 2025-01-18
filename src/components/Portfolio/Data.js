@@ -10,7 +10,7 @@ export const portfolioData = [
     id: 2,
     image:
       "https://cdn.dribbble.com/users/1709768/screenshots/18738644/media/2b4df1b87da27607728fee42f1300475.png?resize=1200x900&vertical=center",
-    title: "Kanban Board",
+    title: "TaskTracker",
     category: "web",
   },
   {
