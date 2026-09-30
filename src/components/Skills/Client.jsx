@@ -29,31 +29,31 @@ function Client() {
     {
       id: 5,
       icon: "bx-badge-check",
-      name: "ReactJS",
+      name: "DSA",
       level: "Advanced",
     },
     {
       id: 6,
       icon: "bx-badge-check",
-      name: "Angular",
-      level: "Intermediate",
+      name: "MERN Stack",
+      level: "Advanced",
     },
     {
       id: 7,
       icon: "bx-badge-check",
-      name: "UI/UX",
+      name: "Git",
       level: "Advanced",
     },
     {
       id: 8,
       icon: "bx-badge-check",
-      name: "Git",
+      name: "GitHub",
       level: "Advanced",
-    },
+    }
   ];
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Frontend Development</h3>
+      <h3 className="skills__title">Technical Skills</h3>
 
       <div className="skills__box">
         <div className="skills__group">

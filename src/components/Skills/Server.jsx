@@ -5,49 +5,49 @@ function Server() {
     {
       id: 1,
       icon: "bx-badge-check",
-      name: "Data Structures & Algorithms",
+      name: "Software Architecture",
       level: "Advanced",
     },
     {
       id: 2,
       icon: "bx-badge-check",
-      name: "NodeJS",
+      name: "API Design",
       level: "Advanced",
     },
     {
       id: 3,
       icon: "bx-badge-check",
-      name: "ExpressJS",
+      name: "System Design",
       level: "Advanced",
     },
     {
       id: 4,
       icon: "bx-badge-check",
-      name: "MongoDB & MySql",
+      name: "Generative AI",
       level: "Advanced",
     },
     {
       id: 5,
       icon: "bx-badge-check",
-      name: "REST API Development",
+      name: "Agentic AI",
       level: "Advanced"
     },
     {
       id: 6,
       icon: "bx-badge-check",
-      name: "Java",
+      name: "Prompt Engineering",
       level: "Advanced",
     },
     {
       id: 7,
       icon: "bx-badge-check",
-      name: "Spring Boot",
+      name: "Scalable Systems",
       level: "Advanced",
     }
   ];
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend Development</h3>
+      <h3 className="skills__title">Architecture & AI</h3>
 
       <div className="skills__box">
         <div className="skills__group">

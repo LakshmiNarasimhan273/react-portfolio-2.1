@@ -11,7 +11,7 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_dtbk9vg",
+        "service_j5styue",
         "template_azqrz0u",
         form.current,
         "bT6wUaW98BuWxf9Ja"
@@ -36,9 +36,9 @@ function Contact() {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Get in touch</h2>
+      <h2 className="section__title">Let's Connect</h2>
       <span className="section__subtitle">
-        Would like to have conversation with Me?
+        Have an opportunity, idea, or question? I'd love to hear from you.
       </span>
 
       <div className="contact__container container grid">

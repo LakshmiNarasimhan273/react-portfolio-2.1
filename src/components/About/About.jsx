@@ -1,14 +1,14 @@
 import React from "react";
 import "./About.css";
-import AboutImg from "../../assets/LinkedIn-Profile.jpeg";
-import resume from "../../assets/Lakshmi-Narasimhan.pdf";
+import AboutImg from "../../assets/portfolio-about.jpeg";
+import resume from "../../assets/Lakshmi_Narasimhan-Resume.pdf";
 import Content from "./Content";
 
 function About() {
   return (
     <section className="about section" id="aboutme">
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">The Engineer Behind the Work</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,13 +17,14 @@ function About() {
           <Content />
 
           <p className="about__description">
-            I'm Lakshmi Narasimhan, a seasoned MERN stack trainer with 3+
-            years of immersive experience. Specializing in full-stack
-            application development, I've spearheaded numerous projects,
-            leveraging my strong knowledge base to deliver impactful solutions.
-            With a passion for sharing knowledge and a commitment to excellence,
-            I thrive on empowering individuals to excel in the ever-evolving
-            landscape of web development.
+            Backend-focused Full Stack Developer (MERN) and Subject Matter
+            Expert with 5+ years of experience in Node.js, Express.js, MongoDB,
+            REST API design, authentication/RBAC, and system architecture.
+            Proven track record mentoring 500+ professionals and delivering 300+
+            technical training programs across Full-Stack Development, System
+            Design, and Generative AI/Agentic AI. Skilled at architecture
+            reviews, code quality audits, and translating complex engineering
+            concepts into production-ready skills.
           </p>
 
           <a href={resume} download={true} className="button button--flex">

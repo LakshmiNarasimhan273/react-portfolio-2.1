@@ -6,13 +6,13 @@ function Content() {
       id: 1,
       title: "Experience",
       icon: "award",
-      subTitle: "3+ Years Working",
+      subTitle: "5+ Years Working",
     },
     {
       id: 2,
       title: "Projects",
       icon: "briefcase-alt",
-      subTitle: "20+ Completed projects",
+      subTitle: "50+ Completed projects",
     },
     {
       id: 3,

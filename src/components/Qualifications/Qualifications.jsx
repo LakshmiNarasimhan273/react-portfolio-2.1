@@ -8,8 +8,8 @@ function Qualifications() {
   };
   return (
     <section className="qualification section">
-      <h2 className="section__title">Qualifications</h2>
-      <span className="section__subtitle">My personal journey</span>
+      <h2 className="section__title">My Journey</h2>
+      <span className="section__subtitle">From learning the fundamentals to building real-world solutions</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -46,22 +46,7 @@ function Qualifications() {
             }
             onClick={() => toggleTab(1)}
           >
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  MCA - Distance Education
-                </h3>
-                <span className="qualification__subtitle">Anna University</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2023
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
+            
             {/*  */}
             <div className="qualification__data">
               <div></div>
@@ -95,7 +80,7 @@ function Qualifications() {
           {/*  */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Full Stack Mentor</h3>
+                <h3 className="qualification__title">Subject Matter Expert (MERN)</h3>
                 <span className="qualification__subtitle">
                   Entri
                 </span>

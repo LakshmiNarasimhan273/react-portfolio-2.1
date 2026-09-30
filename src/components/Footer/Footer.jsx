@@ -51,18 +51,27 @@ function Footer() {
           >
             <i className="bx bx-mail-send"></i>
           </a>
+
+          <a
+            href="https://medium.com/@lakshminarasimhan511"
+            className="footer__social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class='bx bxl-medium-square'></i>
+          </a>
         </div>
 
         <span className="footer__copy">
           &#169;
           <a
-            href="https://twitter.com/Lakshmi37718277"
+            href="https://www.linkedin.com/in/lakshmi-narasimhan-developer"
             target="_blank"
             rel="noopener noreferrer"
           >
             <span> </span>Lakshmi Narasimhan.
           </a>
-          All rights reserved
+         {" "} v17.20.0 | All rights reserved
         </span>
       </div>
     </footer>
